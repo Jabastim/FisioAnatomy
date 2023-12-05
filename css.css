@@ -1,0 +1,437 @@
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+
+    header, section, footer {
+        width: 580px;
+    }
+       
+    header {
+        height: 120px;
+    }
+           
+       
+    #logo,  #logo img  {
+        width: 580px;
+        height: 90px;
+    }
+           
+       
+    #botonera {
+        width: 580px;
+        height:30px;
+   }
+       
+       
+   #botonera ul li {
+       line-height: 17px;
+       box-shadow: 3px 3px 2px #31B404;  
+   }
+     
+   
+    #botonera ul li a {
+         padding: 0px 14px;
+           
+    }
+       
+       
+   
+       
+       
+       #Inicio {
+           height: 560px;
+       }
+       
+   
+    #big_box {
+       width: 580px;
+       height: 300px;
+    }
+       
+      
+    
+   #left_box1 {
+        width: 196px;
+       height: 160px;
+       line-height: 16px;
+       padding: 4px;
+       font-size: 12px;
+   }
+       
+       
+    #center_box2 {
+        width: 194px;
+        height: 160px;
+        line-height: 18px;
+       padding: 9px;
+       font-size: 12px;    
+    }
+       
+     
+    
+    #right_box3 {
+        width: 190px;
+        height: 160px;
+        line-height: 18px;
+        padding: 9px;
+        font-size: 12px;
+    }
+       
+    h1, h2, h3 {
+        font-size: 15px;
+    }
+       
+    #left_box4 ,  #center_box5, #right_box6, #right_box7 {
+       width: 145px;
+       height: 90px;
+   
+   }
+    
+       
+   footer {
+        height: 200px;
+          
+   }
+       
+    footer h5 {
+       margin: auto;
+       line-height: 10px;
+       font-size: 10px;
+       margin-bottom: 1px;
+    }
+       
+   
+   
+   
+    form ul li {
+       width: 90%;
+       padding: 0px;
+       font-size: 10px; 
+   }
+       
+       
+   h6 {
+       padding: auto;
+       color: #ffff;
+       padding: 0px;
+       font-size: 9px;
+   }
+       
+       
+       
+    #Servicios {
+       height: 684px;
+       margin-bottom: 3px;
+    }
+       
+       
+   #Servicios h3 {
+       font-size: 20px;
+       padding: 20px;
+       box-sizing: border-box;
+    }
+       
+       
+   #box {
+       width: 250px;
+       background-size: 250px 300px;
+       
+   
+   }
+       
+       
+    #box_serv {
+       height: 200px;
+       background-size:580px 200px;
+       box-sizing: border-box;      
+   }
+           
+           
+           
+   
+       
+       
+       
+    #QuienesSomos {
+       height: 624px;
+           
+   }
+       
+    #QuienesSomos h3 {
+       font-size: 20px;
+       padding: 20px;
+   }
+       
+   #QuienesSomos  p {
+       line-height: 20px;
+       padding: 7px;
+       font-size: 13px;
+    }
+       
+    #QuienesSomos h4 ,  #QuienesSomos h5 {
+        font-size: 15px;
+   }
+       
+   
+       
+    #box_ser {
+       background-image: url(imagenes/atencion2.jpeg);
+       border-radius: 30px;
+       margin-top: 112px;
+       background-size: 580px 200px;
+    }
+       
+   #Contacto {
+       height: 625px;
+       background-color: #DADCDC;
+       margin-bottom: 5px;
+       border-radius: 30px;
+   }
+       
+    #Contacto h3 {
+        font-size: 20px;
+    }
+       
+      
+    
+    #Instalaciones {
+       height: 716px;
+           
+   }
+       
+       
+   #Instalaciones h3 {
+       font-size: 20px;
+       padding: 15px;
+   }
+       
+       
+   #Instalaciones img {
+       width: 250px;
+       height: 300px;
+       margin-left: 20px;
+       margin-top: 10px;      
+   }
+       
+   #boz_dere {
+       width: 200px;
+       background-size: 200px 300px;
+       margin-top: 10px;       
+   }
+      
+    #buz_more {
+       height: 280px;
+       background-size:580px 280px;
+       margin-top: 380px;      
+    }
+           
+   
+   } /* fin media 600 a 1023px */
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+   
+   @media all and (max-width: 599px) {
+   header, section, footer {
+       width: 90%;
+   }
+       
+   header {
+       height: auto;
+       border-radius: 30px;
+       line-height: 0px;
+   }
+           
+       
+   #logo, #logo img, #botonera, #big_box {
+       width: 100%;
+       height: auto;
+   
+   }
+   
+   
+   
+    #botonera ul li {
+       display: block;
+       border: 1px solid #31B404;
+       box-shadow: 3px 3px 2px #31B404;
+       border-radius: 10px;
+       font-size: 13px;
+    }
+       
+       
+    
+    #botonera ul li a {
+       display: inline-block;
+       width: 100%;
+       text-align: center;
+       padding: 0px 0px;
+       -webkit-box-shadow: 2px 2px 2px #31B404;
+       -moz-box-shadow: 2px 2px 2px #31B404;
+       box-shadow: 2px 2px 2px #31B404;
+       
+   }
+       
+      
+    #Inicio {
+       height: 700px;
+       flex-wrap: wrap;
+   
+   }
+       
+   #big_box img { 
+       border-radius: 20px;
+   }
+          
+   #left_box1, #center_box2, #right_box3 {
+       width: 100%;
+       height: auto;
+       float: none;
+       line-height: 20px;
+       padding: 7px;
+       font-size: 13px;
+   }
+       
+   h1, h2, h3 {
+       font-size: 15px;
+   }
+   #left_box4 img{
+       float: left;
+   }   
+   #left_box4 {
+       width: ;
+       height: 50%
+       margin-right: 15px;
+   }
+   #center_box5 {
+       width: ;
+       height: 50%;
+       margin-right: 10px;
+       float: right;
+   }
+   
+   #right_box6  {
+       width: 80px;
+       height: 80px;
+       margin-left: 10px;
+   }
+   #right_box7 {
+       width: 80px;
+       height: 80px;
+       margin-left: 15px;
+   }
+   
+       
+   footer {
+       height: 220px;
+         
+   }
+   footer h5 {
+       line-height: 20px;
+       font-size: 14px;
+   }
+       
+    
+       
+   form ul li {
+       font-size: 9px; 
+    }
+       
+       
+    h6 {
+       padding: 5px;
+       font-size: 10px;
+   }
+       
+       
+       
+   #Servicios {
+        height: auto;
+   }
+       
+       
+    #Servicios h3 {
+       font-size: 25px;
+    }
+       
+       
+   #box {
+        background-position: center; 
+   }
+       
+       
+    #box_serv {
+       background-size:100% 100%;
+           
+    }
+       
+       
+   #QuienesSomos {
+       height: auto;
+   }
+       
+   #QuienesSomos h3 {
+       font-size: 22px;
+       
+   }
+       
+   #QuienesSomos  p {
+       float:none;
+       line-height: 20px;
+       padding: 10px;
+       font-size: 14px;
+   }
+       
+   #QuienesSomos h4, #QuienesSomos h5 {
+       font-size: 16px;
+    }
+       
+   #box_ser {
+       background-size: 100% 100%;
+   }
+       
+   #Contacto {
+       height: auto;
+   }
+       
+    #Contacto h3 {
+       font-size: 22px;
+   }
+       
+   
+   #Instalaciones {
+       height: auto;
+   }
+       
+   #Instalaciones h3 {
+       font-size: 22px;
+   }
+       
+       
+    #Instalaciones img {
+       width: 180px;
+       height: 180px;
+       margin-top: 5px;
+   }
+       
+       
+   #boz_dere {
+       width: 200px;
+       height: 200px;
+       background-size: 100% 100%;
+    }
+       
+   #buz_more {
+       background-size:100%  100%;
+   }
+   
+   } /* fin media -599px */
+   
